@@ -13,4 +13,5 @@ int main(void)
         printf("%d",nums);
         nums++;
     }
+	return 0;
 }
