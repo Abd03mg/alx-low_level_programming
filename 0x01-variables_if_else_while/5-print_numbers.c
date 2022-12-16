@@ -12,6 +12,7 @@ int main(void)
     {
         printf("%d",nums);
         nums++;
+	putchar('\n')
     }
 	return 0;
 }
