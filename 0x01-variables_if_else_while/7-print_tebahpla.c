@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
-* main - Print all single digit numbers using only putchar
+* main - Print the alphabet in lowercase letters in reverse
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-	char a = 'z';
-	
-	for (a = 'z';a >= 'a';a--)
-    	putchar(a);
-	
-    	putchar('\n');
+	char letter;
+
+	for (letter = 'z'; letter >= 'a'; letter--)
+	putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
