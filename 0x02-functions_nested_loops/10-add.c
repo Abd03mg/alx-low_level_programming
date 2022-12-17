@@ -3,7 +3,7 @@
 * add - function adds two int togather
 * @a: first value
 * @b: second value
-* return: returns the added value
+* Return: returns the added value
 */
 
 int add(int a, int b)
