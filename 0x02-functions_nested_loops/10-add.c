@@ -1,13 +1,15 @@
 #include "main.h"
 /**
 * add - function adds two int togather
-* @a,b - The two values they will be added
+* @a: first value
+* @b: second value
 * return - returns the added value
 */
 
 int add(int a, int b)
 {
-  int res;
-  res = a + b;
-  return (res);
+int res;
+  
+res = a + b;
+return (res);
 }
