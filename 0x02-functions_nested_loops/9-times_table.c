@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * times_table - prints the 9 times table, starting with 0
  */
@@ -32,15 +32,4 @@ _putchar((k % 10) + '0');
 }
 _putchar('\n');
 }
-}
-
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	times_table();
-	return (0);
 }
