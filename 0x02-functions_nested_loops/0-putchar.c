@@ -5,15 +5,15 @@
 * Return: always 0
 */
 
-int main()
+int main(void)
 {
 	char in[] = "_putchar";
 	int i;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 0; i++)
 	{
 		_putchar(in[i]);
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }
