@@ -1,5 +1,5 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "main.h"
+
 
 /**
  * more_numbers - Print numbers between 0 to 14 incl.
