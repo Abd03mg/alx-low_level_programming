@@ -1,5 +1,4 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_diagonal - Print diagonal line dependent on the integer n.
