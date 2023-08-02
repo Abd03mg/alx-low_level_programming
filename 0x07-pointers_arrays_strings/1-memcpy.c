@@ -4,7 +4,7 @@
  * _memcpy - function copy n nubers of memory
  * @dest: pointer to destnation buffer
  * @src: pointer to source
- * @n: size of buffer 
+ * @n: size of buffer
  * Return: dest
  */
 
