@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _memcpy - irontnoux2
+ * _memcpy - function copy n nubers of memory
  * @dest: pointer to destnation buffer
  * @src: pointer to source
  * @n: size of buffer 
- * Return: *dest
+ * Return: dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
