@@ -1,23 +1,21 @@
-# 0x06. C - More pointers, arrays and strings Project
+File 0-puts_recursion.c is a function that prints a string, followed by a new line.
 
-File 0-strcat.c is a function that concatenates two strings.
+File 1-print_rev_recursion.c is a function that prints a string in reverse.
 
-File 1-strncat.c is a function that concatenates two strings that will use at most n bytes from src.
+File 2-strlen_recursion.c is a function that returns the length of a string.
 
-File 2-strncpy.c is a function that copies a string.
+File 3-factorial.c is a function that returns the factorial of a given number.
 
-File 3-strcmp.c is a function that compares two strings.
+File 4-pow_recursion.c is a function that returns the value of x raised to the power of y.
 
-File 4-rev_array.c a function that reverses the content of an array of integers.
+File 5-sqrt_recursion.c is a function that returns the natural square root of a number.
 
-File 5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase.
+File 6-is_prime_number.c is a function that returns 1 if the input integer is a prime number, otherwise return 0.
 
-File 6-cap_string.c is a function that capitalizes all words of a string.
+File 100-is_palindrome.c is a function that returns 1 if a string is a palindrome and 0 if not.
 
-File 7-leet.c is a function that encodes a string into 1337.
+File 101-wildcmp.c is a function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. It uses the concept of wildcards.
 
-File 100-rot13.c is a function that encodes a string using rot13.
+File _putchar.c is a file containing the _putchar function.
 
-File _putchar.c is a function that replaces the standard library function putchar().
-
-File main.h is the header file containing all the function prototypes.
+File main.h is the header file containing the function prototypes.
