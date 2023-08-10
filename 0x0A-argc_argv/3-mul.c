@@ -8,14 +8,14 @@
  * Return: return 0 if success, 1 if faild.
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", (_atoi(argv[argc - 1]) * _atoi(argv[argc - 2])));
+	printf("%d\n", (_atoi(argv[1]) * _atoi(argv[2])));
 	return (0);
 }
 
