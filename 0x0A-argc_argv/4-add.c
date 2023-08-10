@@ -73,6 +73,7 @@ int main(int argc, char *argv[])
 	for (j = 0; j < argc; j++)
 	{
 		result += _atoi(argv[j]);
+		printf("%d\n", result);
 	}
 	return (0);
 }
