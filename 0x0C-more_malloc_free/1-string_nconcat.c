@@ -21,14 +21,22 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		;
 	if (i <= n)
 		s3 = malloc(j + i + 1);
+	else
+		s3 = malloc(j + n + 1);
 	if (s3 == NULL)
 		return (NULL);
 	while (sizeof(*s3) >= k)
 	{
 		if (k <= j)
+		{
 			*(s3 + k) = *(s1 + k);
+			k++;
+		}
 		if (k > j)
+		{
 			*(s3 + k) = *(s2 + k);
+			k++;
+		}
 	}
 	return (s3);
 }
