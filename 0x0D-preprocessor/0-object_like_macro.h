@@ -1,5 +1,5 @@
-#ifndef _FILE_NAME_H
-#define _FILE_MAIN_H
+#ifndef FILE_H
+#define FILE_H
 
 #define SIZE 1024
 
