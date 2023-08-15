@@ -1,6 +1,6 @@
 #ifndef FILE_H
 #define FILE_H
-
+#define dog_t struct dog
 /**
  * struct dog - short Description.
  * @name: name of dog.
@@ -16,4 +16,5 @@ struct dog
 };
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+
 #endif
