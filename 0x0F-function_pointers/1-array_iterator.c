@@ -12,10 +12,10 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i, len;
 
-	len = sizeof(*array) / sizeof(*(array + 0));
+	len = size / sizeof(array[0]);
 
 	for (i = 0; i < len; i++)
 	{
-		action(*(array + i));
+		action(array[i]);
 	}
 }
