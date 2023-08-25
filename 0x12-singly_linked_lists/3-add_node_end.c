@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * add_node_end - function that add not at end of a list.
+ * add_node_end -  function that add not at end of a list.
  * @head: target list.
- * str: buffer must added.
+ * @str: buffer must added.
  * Return: the address of new element.
  */
 
