@@ -1,4 +1,4 @@
-
+#include "lists.h"
 
 /**
  * print_list - function that prints the elements of a linked list
@@ -8,15 +8,16 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t elem = 0;
+	size_t elems = 0;
 
-	if (h == NULL)
-		return (elem);
-	if (!h->str)
-		printf("[0] (nil)\n");
-	else
-		printf("[%u] %s\n", h->len, h->str);
-	elem++;
-	print_list(h->next);
-	
+	while (h)
+	{
+		if (h->str == NULL)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
+		elems++;
+	}
+	return (elems);
 }
