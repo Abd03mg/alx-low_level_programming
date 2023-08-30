@@ -27,7 +27,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	for (c = 0; cp && c < idx; c++)
 	{
-		if (i == idx - 1)
+		if (c == idx - 1)
 		{
 			new->next = cp->next;
 			cp->next = new;
