@@ -16,7 +16,8 @@ int sum_listint(listint_t *head)
 		if (!(cp->n))
 			return (0);
 
-		sum += cp->n;
+		sum += (int)cp->n;
 		cp = cp->next;
 	}
 	return (sum);
+}
