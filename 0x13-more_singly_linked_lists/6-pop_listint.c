@@ -11,10 +11,10 @@ int pop_listint(listint_t **head)
 	listint_t *sw;
 	int data;
 
-	if (head == NULL || *head == NULL)
+	if (head == NULL || (*head) == NULL)
 		return (0);
 
-	data = (*head)->n
+	data = (*head)->n;
 	sw = (*head)->next;
 	free(*head);
 	*head = sw;
