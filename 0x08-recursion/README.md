@@ -4,4 +4,5 @@ __________________________
 ### 1-print_rev_recursion
 ### 2-strlen_recursion
 ### 3-factorial.
+### 4-pow_recursion
 
