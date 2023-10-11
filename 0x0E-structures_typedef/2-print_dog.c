@@ -7,6 +7,8 @@
 
 void print_dog(struct dog *d)
 {
+	if (!d)
+		exit(0);
 	if (d)
 	{
 		if (!(d->name))
