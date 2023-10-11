@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 
 /**
  * free_dog - fuction that frees dogs.
@@ -8,5 +8,9 @@
 void free_dog(dog_t *d)
 {
 	if (d)
+	{
+		free(d->name);
+		free(d->owner);
 		free(d);
+	}
 }
