@@ -11,11 +11,9 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	if (action)
+	if (action && array)
 	{
 		unsigned int i;
-
-		array = malloc(size * int);
 
 		for (i = 0; i < size; i++)
 			action(array[i]);
