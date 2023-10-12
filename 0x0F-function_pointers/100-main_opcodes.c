@@ -19,7 +19,6 @@ void masm(char *m, int c)
 		}
 		putchar('\n');
 	}
-	return;
 }
 
 /**
