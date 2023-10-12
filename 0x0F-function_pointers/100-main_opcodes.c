@@ -7,15 +7,19 @@
 
 void masm(char *m, int c)
 {
-	int i;
-
-	for (i = 0; i < c; i++)
+	if (m)
 	{
-		printf("%.2hhx", m[i]);
-		if (i < c - 1)
-			printf(" ");
+		int i;
+
+		for (i = 0; i < c; i++)
+		{
+			printf("%.2hhx", m[i]);
+			if (i < c - 1)
+				printf(" ");
+		}
+		putchar('\n');
 	}
-	putchar('\n');
+	return;
 }
 
 /**
