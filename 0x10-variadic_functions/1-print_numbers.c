@@ -3,7 +3,7 @@
 /**
  * print_numbers - function that prints numbers.
  *
- * @separartor: string sperate the numbers.
+ * @separator: string sperate the numbers.
  * @n: count of numbers.
  */
 
