@@ -46,4 +46,5 @@ int main(int argc, char *argv[])
 	}
 
 	masm((char *)&main, num);
+	return (0);
 }
