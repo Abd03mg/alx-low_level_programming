@@ -16,11 +16,11 @@ void print_all(const char * const format, ...)
 	va_list args;
 
 	va_start(args, format);
-	while (format[i] != '\0')
+	while (*(format + i) != '\0')
 	{
-		if (format[i] == '\0')
-			sp = NULL;
-		switch (format[i])
+		if (*(format + 1 + i) == '\0')
+			sp = "";
+		switch (*(format + i))
 		{
 			case 'c':
 				chr = va_arg(args, int);
