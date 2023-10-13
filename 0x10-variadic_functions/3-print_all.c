@@ -18,7 +18,7 @@ void print_all(const char * const format, ...)
 	va_start(args, format);
 	while (format && *(format + i) != '\0')
 	{
-		if (*(format + 1 + i) == '\0')
+		if (!(*(format + 1 + i)))
 			sp = "";
 		switch (*(format + i))
 		{
