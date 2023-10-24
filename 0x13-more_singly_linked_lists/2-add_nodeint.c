@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_nodeint - function that return new node at 
+ * add_nodeint - function that return new node at
  * linked list.
  *
  * @head: double poinnter to list.
