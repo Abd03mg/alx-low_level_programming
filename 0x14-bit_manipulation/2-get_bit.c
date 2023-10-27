@@ -14,7 +14,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	unsigned long int nc = n;
 	int a;
 
-	if (n || n != 0)
+	if (n || index < 32)
 	{
 		while (index >= len)
 		{
