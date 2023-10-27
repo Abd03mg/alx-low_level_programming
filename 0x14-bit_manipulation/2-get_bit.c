@@ -10,21 +10,10 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int len = 0;
-	unsigned long int nc = n;
-	int a;
+	int idx;
 
-	if (n || index < 32)
-	{
-		while (index >= len)
-		{
-			a = nc % 2;
-			nc /= 2;
-			len++;
-		}
-		return (a);
-	}
-	else
+	if(index > 32)
 		return (-1);
+	idx = (n >> index);
+	return (idx & 1);
 }
-
