@@ -9,7 +9,6 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-	dlistint_t *sec = h->next;
 	size_t num = 0;
 
 	for ( ; h; num++)
