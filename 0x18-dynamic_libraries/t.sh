@@ -1,0 +1,20 @@
+#!/bin/sh
+ cp $(find .. -name "*strlen.c") .
+ cp $(find .. -name "*abs.c") .
+ cp $(find .. -name "*atoi.c") .
+ cp $(find .. -name "*islower.c") .
+ cp $(find .. -name "*isalpha.c") .
+ cp $(find .. -name "*isupper.c") .
+ cp $(find .. -name "*isdigit.c") .
+ cp $(find .. -name "*puts.c") .
+ cp $(find .. -name "*strcpy.c") .
+ cp $(find .. -name "*strcat.c") .
+ cp $(find .. -name "*strncpy.c") .
+ cp $(find .. -name "*strncat.c") .
+ cp $(find .. -name "*strcmp.c") .
+ cp $(find .. -name "*memset.c") .
+ cp $(find .. -name "*memcpy.c") .
+ cp $(find .. -name "*strchr.c") .
+ cp $(find .. -name "*strspn.c") .
+ cp $(find .. -name "*strpbrk.c") .
+ cp $(find .. -name "*strstr.c") .
