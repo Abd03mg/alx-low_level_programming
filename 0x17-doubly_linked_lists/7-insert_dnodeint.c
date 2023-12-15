@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * insert_dnode_at_index - function that inserts node at nth idx.
+ * insert_dnodeint_at_index - function that inserts node at nth idx.
  *
  * @h: double pointer to dlistint list.
  * @idx: index of inserted node.
